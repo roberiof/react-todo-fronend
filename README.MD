@@ -6,7 +6,7 @@
 
 <br>
 
-> Use the project yourself: <https://react-todo-tau-livid.vercel.app/> 
+> Use the project yourself:  <https://react-todo-frontend-eight.vercel.app/> 
 
 <br>
 
