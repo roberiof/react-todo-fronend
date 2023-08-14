@@ -87,7 +87,10 @@ body input {
   outline: none;
   position: absolute;
   padding-left: 1rem;
-  z-index: 1;
+  z-index: 2;
+}
+#wrapperTodoList .todo input:disabled {
+  color: white;
 }
 #wrapperTodoList .todo .icons {
   position: absolute;
