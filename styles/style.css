@@ -1,31 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500;10..48,800&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #ffffff;
+  font-family: "Bricolage Grotesque", sans-serif;
   outline-color: #000000;
 }
 
 body {
   background-color: #141221;
-  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
 body h1 {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-shadow: 1px 4px 1em #000000;
 }
-body p {
-  text-shadow: 1px 4px 1em #000000;
+body input {
   font-size: 1rem;
 }
 
 #wrapperTitleForm {
-  padding-top: 3rem;
+  padding-top: 5rem;
   width: 90%;
-  max-width: 400px;
+  max-width: 500px;
   margin: auto;
   text-align: center;
 }
@@ -68,7 +67,7 @@ body p {
   flex-direction: column;
   gap: 0.8rem;
   margin: auto;
-  margin-block: 2rem;
+  margin-block: 3rem;
 }
 #wrapperTodoList .todo {
   cursor: pointer;
@@ -120,9 +119,9 @@ body p {
   background: linear-gradient(to right, #8629FE, #4600FF);
 }
 
-@media (max-width: 355px) {
+@media (max-width: 400px) {
   body h1 {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 }
 
