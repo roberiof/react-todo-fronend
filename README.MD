@@ -13,7 +13,10 @@
 ## ☕ More about 
 This project was particularly made to iniciate my posting journey at LinkedIn, so I have a such good feeling about it. Besides that, it's a classic and simple programming challenge :) 
 
-<!-- <br> -->
+<br> 
+<br> 
+
+_*PS:* The Render (deployment platoform) non paid deploy desacelerates the backend API after 15 minutes inactivity. So probably, you'll have to wait some time to test it. To overcome this, you can just clone the frontend and backend repos and test in your device._
 
 ## 🚀 Techs used 
 * **[ Vite JS ](https://vitejs.dev/)**
